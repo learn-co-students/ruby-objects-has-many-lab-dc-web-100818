@@ -15,8 +15,8 @@ class Post
   end
 
   def author_name
-    if self.author.nil?
-      return nil
+    if self.author.nil? #checking to see if the post has an author name, will return true or false.
+      return nil #returning nil as a result
     else
       self.author.name
     end
